@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1580da18a2fc8f249a190a44eb2b9dd7, type: 3}
+  m_Name: testcreator
+  m_EditorClassIdentifier: 
+  entries:
+  - text: Watch where you going bitch!
+    predicates: []
+    prohibates:
+    - Response1
+    setsPredicates:
+    - Diag1
+    - waitPlayerResponse
+    setsProhibates: []
+  - text: Watch where you going nigga!
+    predicates:
+    - playerIsBlack
+    prohibates: []
+    setsPredicates:
+    - Diag1
+    - waitPlayerResponse
+    setsProhibates: []
+  - text: BANG BANG BANG
+    predicates:
+    - Response2
+    prohibates: []
+    setsPredicates:
+    - Diag2
+    - waitPlayerResponse
+    setsProhibates: []
+  - text: Don't you ignore me!
+    predicates:
+    - Response1
+    prohibates: []
+    setsPredicates:
+    - Diag2
+    - waitPlayerResponse
+    setsProhibates: []
+  responses:
+  - text: I'm white!
+    predicates:
+    - Diag1
+    prohibates: []
+    setsPredicates:
+    - Response1
+    setsProhibates: []
+  - text: What you say to me?
+    predicates:
+    - Diag1
+    - playerIsBlack
+    prohibates: []
+    setsPredicates:
+    - Response2
+    setsProhibates: []

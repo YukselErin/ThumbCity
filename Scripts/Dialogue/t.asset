@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f9f720b09ed597408adac147b43a8e9, type: 3}
+  m_Name: t
+  m_EditorClassIdentifier: 
+  dialogueResponses:
+  - index: 0
+    waitPlayerResponse: 1
+    playerResponses: 0100000002000000
+    text:
+      m_TableReference:
+        m_TableCollectionName: GUID:17bb0919f87c0814199cbe8ef9b3897c
+      m_TableEntryReference:
+        m_KeyId: 35554852864
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    nextResponse: 0
+  - index: 1
+    waitPlayerResponse: 0
+    playerResponses: 
+    text:
+      m_TableReference:
+        m_TableCollectionName: GUID:17bb0919f87c0814199cbe8ef9b3897c
+      m_TableEntryReference:
+        m_KeyId: 73500721152
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    nextResponse: 3
+  - index: 2
+    waitPlayerResponse: 0
+    playerResponses: 
+    text:
+      m_TableReference:
+        m_TableCollectionName: GUID:17bb0919f87c0814199cbe8ef9b3897c
+      m_TableEntryReference:
+        m_KeyId: 15137607778304
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    nextResponse: 4
+  - index: 3
+    waitPlayerResponse: 0
+    playerResponses: 
+    text:
+      m_TableReference:
+        m_TableCollectionName: GUID:17bb0919f87c0814199cbe8ef9b3897c
+      m_TableEntryReference:
+        m_KeyId: 15246038925312
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    nextResponse: -1
+  - index: 4
+    waitPlayerResponse: 0
+    playerResponses: 
+    text:
+      m_TableReference:
+        m_TableCollectionName: GUID:17bb0919f87c0814199cbe8ef9b3897c
+      m_TableEntryReference:
+        m_KeyId: 15308974456832
+        m_Key: 
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    nextResponse: -1
+  references:
+    version: 2
+    RefIds: []
